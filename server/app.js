@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 mongoose.connect(
-  "mongodb://umair:Pakistan123@ds111065.mlab.com:11065/gql-ninja"
+  ""
 );
 mongoose.connection.once("open", () => {
   console.log("db connected successfully");
